@@ -1,0 +1,6 @@
+interface:
+  display_name: "Bank Statement Summary"
+  short_description: "Bank statements to a monthly reconciled CSV"
+  default_prompt: "Use $bank-statement-summary to turn the statements in ~/Downloads/statements.zip into monthly CSVs, PDF files only."
+policy:
+  allow_implicit_invocation: true
